@@ -1,0 +1,126 @@
+
+/*BannerHomeInicial*/
+body{
+    background-color: rgb(59, 59, 59);
+}
+section{
+    /*background-color: rgb(65, 105, 225);*/
+    /*background-color: rgb(0, 156, 140);*/
+    background-color: azure;
+    padding: none;
+    margin: none;
+    width: ;
+}
+.container{
+    display: flex;
+    
+}
+
+.row{
+    display: inline-flex;
+    margin-top: 50px;
+    margin-left: 250px;
+
+}
+
+.row.image{
+    display: block;
+    max-width: 750px; /*339.25*/
+    margin-right: 200px;
+    padding: 0px 0px 0px 10px;
+    margin-left: 0px;
+}
+
+.row.info{
+    display: block;
+    max-width: 500px;
+    margin-top: 200px;
+    margin-left: 140px;
+    
+    
+}
+
+.titleHome{
+    
+    font-size: 40px;
+    padding: none;
+}
+
+.aboutUs{
+    padding: none;
+    margin: none;
+}
+
+.button{
+    margin-top: 50px;
+}
+
+.button.right{
+
+    border: solid;
+    border-color: rgb(0, 156, 140);
+
+    padding: 10px;
+    background-color: rgb(0, 156, 140);
+    color: white;
+    
+}
+.button.left{
+    border: solid;
+    border-color: rgb(0, 156, 140);
+    border-width: 1px;
+
+    padding: 10px;
+    color: rgb(0, 156, 140);
+    
+}
+
+/*navBar*/
+a{
+    text-decoration: none;
+}
+.navBar{
+    padding: 0px 0px 0px 140px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 156, 140);
+    color: rgb(0, 156, 140);
+
+}
+
+.navItem{
+    margin-left: 30px;
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+
+    
+}
+
+.navButton{
+
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+
+/*LogoMarca*/
+#icon{
+
+    width: 40px;
+    margin-right: 8px;
+    
+}
+
+#name{
+    font-size: 30px;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+    
+}
