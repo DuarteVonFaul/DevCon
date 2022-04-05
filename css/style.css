@@ -4,9 +4,38 @@ body{
     background-color: white;
 }
 
+p{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+h1{
+    color: black;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+h5{
+    font-family: sans-serif;
+}
+
+a{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#title{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
 #card{
     margin-top: 50px;
 }
+
 
 /*BannerHomeInicial*/
 .container{
@@ -20,7 +49,7 @@ body{
     
 }
 
-.  {
+.row-space{
     padding: 20px;
 }
 
@@ -142,4 +171,42 @@ a{
     align-items: center;
 
     
+}
+
+/* Cards */
+
+.card{
+    margin-bottom: 10px;
+}
+
+.card-img-top{
+    width: 273px;
+}
+
+.card-body{
+    border: solid;
+    border-width: 1px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-title{
+    font-size: 20px;
+    margin: 0%;
+    padding-top: 15px;
+}
+
+.card-text{
+    text-align: left;
+}
+
+.card-sm{
+    width: 250px;
+}
+
+.card-md{
+    width: 540px;
+    padding-right: 0px;
+    padding-bottom: 0px;
 }
