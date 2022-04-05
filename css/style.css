@@ -4,6 +4,10 @@ body{
     background-color: white;
 }
 
+#card{
+    margin-top: 50px;
+}
+
 /*BannerHomeInicial*/
 .container{
     display: block;
@@ -11,9 +15,11 @@ body{
 
 
 .row{
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    padding: 20px;
 }
+
 
 .color-azure{
     background-color: azure;
@@ -33,7 +39,11 @@ body{
 
 .col-info{
     max-width: 500px;
-      
+    min-width: 400px;    
+}
+
+.col-space{
+    padding: 50px;
 }
 
 .col-sm{
@@ -41,8 +51,13 @@ body{
     width: 140px;
 }
 
+.col-md{
+    max-width: 200px;
+    width: 200px;
+}
+
 .button{
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .button-solid{
