@@ -17,6 +17,10 @@ body{
 .row{
     display: flex;
     align-items: center;
+    
+}
+
+.  {
     padding: 20px;
 }
 
@@ -39,7 +43,7 @@ body{
 
 .col-info{
     max-width: 500px;
-    min-width: 400px;    
+    min-width: 250px;    
 }
 
 .col-space{
@@ -54,6 +58,16 @@ body{
 .col-md{
     max-width: 200px;
     width: 200px;
+}
+
+.col-lg{
+    max-width: 1000px;
+    width: 1000px;
+}
+
+.col-xlg{
+    max-width: 2000px;
+    width: 2000px;
 }
 
 .button{
@@ -111,7 +125,7 @@ a{
 
 
 /*LogoMarca*/
-#icon{
+.icon{
 
     width: 40px;
     margin-right: 8px;
