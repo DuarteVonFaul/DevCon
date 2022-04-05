@@ -1,6 +1,6 @@
 # DevCon
 
-Este projeto é um trabalho pessoal onde eu gero as telas da DevCon uma comunidade inventada(Atualmente ela não existe) voltada para suporte e fomentar a comuninadade de tecnologia e inovação nacional.
+Este projeto é um trabalho pessoal onde eu gero as telas da DevCon uma comunidade fictícia voltada para suporte e fomentar a comuninadade de tecnologia e inovação nacional.
 
 ## 1. Projeto Figma
   
