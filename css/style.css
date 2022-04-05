@@ -1,61 +1,51 @@
 
-/*BannerHomeInicial*/
+
 body{
-    background-color: rgb(59, 59, 59);
+    background-color: white;
 }
-section{
-    /*background-color: rgb(65, 105, 225);*/
-    /*background-color: rgb(0, 156, 140);*/
-    background-color: azure;
-    padding: none;
-    margin: none;
-    width: ;
-}
+
+/*BannerHomeInicial*/
 .container{
-    display: flex;
-    
+    display: block;
 }
+
 
 .row{
     display: inline-flex;
-    margin-top: 50px;
-    margin-left: 250px;
+    align-items: center;
+}
+
+.color-azure{
+    background-color: azure;
+}
+
+.color-white{
+    background-color: white;
+}
+
+.col{
+   display: block;  }
+
+.col-image{
+    max-width: 900px; 
 
 }
 
-.row.image{
-    display: block;
-    max-width: 750px; /*339.25*/
-    margin-right: 200px;
-    padding: 0px 0px 0px 10px;
-    margin-left: 0px;
-}
-
-.row.info{
-    display: block;
+.col-info{
     max-width: 500px;
-    margin-top: 200px;
-    margin-left: 140px;
-    
-    
+      
 }
 
-.titleHome{
-    
-    font-size: 40px;
-    padding: none;
-}
-
-.aboutUs{
-    padding: none;
-    margin: none;
+.col-sm{
+    max-width: 140px;
+    width: 140px;
 }
 
 .button{
     margin-top: 50px;
 }
 
-.button.right{
+.button-solid{
 
     border: solid;
     border-color: rgb(0, 156, 140);
@@ -65,7 +55,7 @@ section{
     color: white;
     
 }
-.button.left{
+.button-transparent{
     border: solid;
     border-color: rgb(0, 156, 140);
     border-width: 1px;
