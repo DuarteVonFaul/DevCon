@@ -32,10 +32,6 @@ a{
     font-family: sans-serif;
 }
 
-#card{
-    margin-top: 50px;
-}
-
 
 /*BannerHomeInicial*/
 .container{
@@ -51,15 +47,6 @@ a{
 
 .row-space{
     padding: 20px;
-}
-
-
-.color-azure{
-    background-color: azure;
-}
-
-.color-white{
-    background-color: white;
 }
 
 .col{
@@ -173,9 +160,25 @@ a{
     
 }
 
+/*Background Color*/
+
+.color-azure{
+    background-color: azure;
+}
+
+.color-white{
+    background-color: white;
+}
+
+.color-dimgrey{
+    background-color: rgb(75, 190, 183);
+    color:white;
+}
+
 /* Cards */
 
 .card{
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -199,6 +202,7 @@ a{
 
 .card-text{
     text-align: left;
+    
 }
 
 .card-sm{
