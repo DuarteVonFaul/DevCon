@@ -2,18 +2,23 @@
 
 Este projeto é um trabalho pessoal onde eu gero as telas da DevCon uma comunidade fictícia voltada para suporte e fomentar a comuninadade de tecnologia e inovação nacional.
 
-## 1. Projeto Figma
+## 1. Projeto
   
-Usarei como base umas paginas criadas por mim no Figma, não irei seguir a risca toda a prototipação apresentada lá, mas irei seguir a ideia geral da aplicação .
-O projeto projeto no Figma pode ser visto [aqui](https://www.figma.com/file/TvggwvpCrnglMVQoUn5d9O/DuarteVonFaul?node-id=2%3A2).
+O intuito desse projeto é trabalhar inteiramente com CSS utilizando GridLayout e FlexBox para criar telas inteiras e totalmente responsivas sem necessidade de recursos externos. 
 
 ## 2. HomePage:
 
-![DevConHomePage](https://user-images.githubusercontent.com/50261190/161834085-6fdc007f-779a-4f2f-9d93-e1e528490d18.gif)
+![Homepage](https://github.com/DuarteVonFaul/DevCon/assets/50261190/6b34a3b3-2ec2-45a2-ab08-7517e2cba61c)
+
+### 2.1 Responsividade
+![Homepage-mobile](https://github.com/DuarteVonFaul/DevCon/assets/50261190/f320f5c6-0099-410b-9734-b0d6f698ea9f)
 
 ## 3. Community:
 
-![DevConCommunity](https://user-images.githubusercontent.com/50261190/161834138-86fc1430-0b4d-4812-87b8-d8e8b3873465.gif) 
+![Community](https://github.com/DuarteVonFaul/DevCon/assets/50261190/9fa72ac9-3112-4679-8db5-4fc74c8e878b)
+
+### 3.1 Responsividade
+![community-mobile](https://github.com/DuarteVonFaul/DevCon/assets/50261190/f7c9eebd-573e-4a09-b479-a8d56c5b5976)
 
 ## 4. Tecnologias:
   
