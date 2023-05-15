@@ -35,14 +35,32 @@ footer{
 #news{
     display: grid;
     position: relative;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
         grid-template-rows:  1fr 1fr 1fr ;
         grid-template-areas:
-            "new01 new02"
-            "new01 new03"
-            "new01 new04";
+            "new01 new02 "
+            "new01 new03 "
+            "new01 new04 "
+            "new01 button";
+    padding: 0% 5% 5% 5%;
+}
 
-    padding: 0% 10% 5% 10%;
+#news .button{
+    display: flex;
+    flex-direction: row-reverse;
+    grid-area: button;
+    max-width: 90%;
+}
+
+#news .button-solid{
+    font-size: 120%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+#Emphasis .card-img-side{
+    padding: 5% 10% 5% 10%;
 }
 
 #new01{
@@ -65,13 +83,13 @@ footer{
     border-radius: 5%;
 }
 #new02 img{
-    max-width: 20%;
+    max-width: 25%;
 }
 #new03 img{
-    max-width: 20%;
+    max-width: 25%;
 }
 #new04 img{
-    max-width: 20%;
+    max-width: 25%;
 }
 
 .new.card-img-side{
@@ -86,7 +104,7 @@ footer{
 
 
 
-@media(max-width: 768px) {
+@media(max-width: 912px) {
 
     #title{
         padding: 4% 5% 1% 8%;
@@ -101,6 +119,10 @@ footer{
         padding: 0% 5% 0% 8%;
         
     }
+
+    #news .button{
+        visibility: hidden;
+    }
     
     #news img{
         max-width: 90%;
@@ -110,7 +132,9 @@ footer{
     }
 
     
-
+    #Emphasis{
+        padding: 0% 2% 0% 2%;
+    }
 
 
     .new{
